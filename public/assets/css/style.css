@@ -61,12 +61,16 @@ body {
 }
 
 .navbar-brand span {
-    color: var(--primary-brown) !important;
-    font-weight: var(--font-weight-regular);
-    font-size: var(--text-medium);
+    color: var(--primary-color); 
+    font-size: 24px;
+    font-weight: var(--font-weight-bold); 
 }
+
 .navbar {
     padding: 48px 0;
+}
+.navbar-nav .nav-link {
+    font-weight: var(--font-weight-medium);
 }
 
 a.nav-link {
@@ -75,6 +79,7 @@ a.nav-link {
     font-size: var(--text-medium);
     color: var(--dark-brown) !important;
 }
+
 
 section.hero {
     margin: 5rem o;
